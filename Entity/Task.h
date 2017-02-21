@@ -5,8 +5,13 @@
 #ifndef MANAGER_TASKS_TASK_H
 #define MANAGER_TASKS_TASK_H
 #pragma once
-
+#include <fstream>
+#include <iomanip>
+#include <stdio.h>
 #include <iostream>
+#include <cstring>
+#include <vector>
+#include <string>
 int const MAX_LEN = 15;
 
 namespace Program{

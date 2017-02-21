@@ -1,6 +1,7 @@
-#include <iostream>
+#include "Entity/Task.h"
+#include "DTO/WorkWithFiles.cpp"
+
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
-    return 0;
+    write_from_file();
 }

@@ -122,6 +122,33 @@ manager_tasks/fast:
 	$(MAKE) -f CMakeFiles\manager_tasks.dir\build.make CMakeFiles/manager_tasks.dir/build
 .PHONY : manager_tasks/fast
 
+DTO/WorkWithFiles.obj: DTO/WorkWithFiles.cpp.obj
+
+.PHONY : DTO/WorkWithFiles.obj
+
+# target to build an object file
+DTO/WorkWithFiles.cpp.obj:
+	$(MAKE) -f CMakeFiles\manager_tasks.dir\build.make CMakeFiles/manager_tasks.dir/DTO/WorkWithFiles.cpp.obj
+.PHONY : DTO/WorkWithFiles.cpp.obj
+
+DTO/WorkWithFiles.i: DTO/WorkWithFiles.cpp.i
+
+.PHONY : DTO/WorkWithFiles.i
+
+# target to preprocess a source file
+DTO/WorkWithFiles.cpp.i:
+	$(MAKE) -f CMakeFiles\manager_tasks.dir\build.make CMakeFiles/manager_tasks.dir/DTO/WorkWithFiles.cpp.i
+.PHONY : DTO/WorkWithFiles.cpp.i
+
+DTO/WorkWithFiles.s: DTO/WorkWithFiles.cpp.s
+
+.PHONY : DTO/WorkWithFiles.s
+
+# target to generate assembly for a file
+DTO/WorkWithFiles.cpp.s:
+	$(MAKE) -f CMakeFiles\manager_tasks.dir\build.make CMakeFiles/manager_tasks.dir/DTO/WorkWithFiles.cpp.s
+.PHONY : DTO/WorkWithFiles.cpp.s
+
 Entity/Task.obj: Entity/Task.cpp.obj
 
 .PHONY : Entity/Task.obj
@@ -185,6 +212,9 @@ help:
 	@echo ... manager_tasks
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... DTO/WorkWithFiles.obj
+	@echo ... DTO/WorkWithFiles.i
+	@echo ... DTO/WorkWithFiles.s
 	@echo ... Entity/Task.obj
 	@echo ... Entity/Task.i
 	@echo ... Entity/Task.s
