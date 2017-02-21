@@ -4,7 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/manager_tasks/DTO/WorkWithFiles.cpp" "D:/manager_tasks/cmake-build-debug/CMakeFiles/manager_tasks.dir/DTO/WorkWithFiles.cpp.obj"
+  "D:/manager_tasks/DTO/Write_from_file_task.cpp" "D:/manager_tasks/cmake-build-debug/CMakeFiles/manager_tasks.dir/DTO/Write_from_file_task.cpp.obj"
+  "D:/manager_tasks/DTO/write_in_file_task.cpp" "D:/manager_tasks/cmake-build-debug/CMakeFiles/manager_tasks.dir/DTO/write_in_file_task.cpp.obj"
   "D:/manager_tasks/Entity/Task.cpp" "D:/manager_tasks/cmake-build-debug/CMakeFiles/manager_tasks.dir/Entity/Task.cpp.obj"
   "D:/manager_tasks/main.cpp" "D:/manager_tasks/cmake-build-debug/CMakeFiles/manager_tasks.dir/main.cpp.obj"
   )

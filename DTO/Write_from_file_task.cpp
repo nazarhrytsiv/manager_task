@@ -4,12 +4,12 @@
 #include "../Entity/Task.h"
 
 using Program::Task
-using namespace std;
-void write_from_file(){
-    vector<Task> tasks;
+
+void write_from_file(vector<Task> &tasks, FILE * dataF){
+//    vector<Task> tasks;
     Task task_1;
-    FILE *dataF = NULL;
-    dataF = fopen("datafile.txt", "r+");
+//    FILE *dataF = NULL;
+//    dataF = fopen("datafile.txt", "r+");
     if (dataF != NULL)
     {
         while (!feof(dataF))

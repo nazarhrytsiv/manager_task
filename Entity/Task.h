@@ -13,7 +13,7 @@
 #include <vector>
 #include <string>
 int const MAX_LEN = 15;
-
+using namespace std;
 namespace Program{
     class Task {
     private:

@@ -104,47 +104,73 @@ CMakeFiles/manager_tasks.dir/Entity/Task.cpp.obj.provides: CMakeFiles/manager_ta
 CMakeFiles/manager_tasks.dir/Entity/Task.cpp.obj.provides.build: CMakeFiles/manager_tasks.dir/Entity/Task.cpp.obj
 
 
-CMakeFiles/manager_tasks.dir/DTO/WorkWithFiles.cpp.obj: CMakeFiles/manager_tasks.dir/flags.make
-CMakeFiles/manager_tasks.dir/DTO/WorkWithFiles.cpp.obj: ../DTO/WorkWithFiles.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\manager_tasks\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/manager_tasks.dir/DTO/WorkWithFiles.cpp.obj"
-	C:\PROGRA~2\TDM\bin\G__~1.EXE   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\manager_tasks.dir\DTO\WorkWithFiles.cpp.obj -c D:\manager_tasks\DTO\WorkWithFiles.cpp
+CMakeFiles/manager_tasks.dir/DTO/Write_from_file_task.cpp.obj: CMakeFiles/manager_tasks.dir/flags.make
+CMakeFiles/manager_tasks.dir/DTO/Write_from_file_task.cpp.obj: ../DTO/Write_from_file_task.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\manager_tasks\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/manager_tasks.dir/DTO/Write_from_file_task.cpp.obj"
+	C:\PROGRA~2\TDM\bin\G__~1.EXE   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\manager_tasks.dir\DTO\Write_from_file_task.cpp.obj -c D:\manager_tasks\DTO\Write_from_file_task.cpp
 
-CMakeFiles/manager_tasks.dir/DTO/WorkWithFiles.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/manager_tasks.dir/DTO/WorkWithFiles.cpp.i"
-	C:\PROGRA~2\TDM\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\manager_tasks\DTO\WorkWithFiles.cpp > CMakeFiles\manager_tasks.dir\DTO\WorkWithFiles.cpp.i
+CMakeFiles/manager_tasks.dir/DTO/Write_from_file_task.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/manager_tasks.dir/DTO/Write_from_file_task.cpp.i"
+	C:\PROGRA~2\TDM\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\manager_tasks\DTO\Write_from_file_task.cpp > CMakeFiles\manager_tasks.dir\DTO\Write_from_file_task.cpp.i
 
-CMakeFiles/manager_tasks.dir/DTO/WorkWithFiles.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/manager_tasks.dir/DTO/WorkWithFiles.cpp.s"
-	C:\PROGRA~2\TDM\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\manager_tasks\DTO\WorkWithFiles.cpp -o CMakeFiles\manager_tasks.dir\DTO\WorkWithFiles.cpp.s
+CMakeFiles/manager_tasks.dir/DTO/Write_from_file_task.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/manager_tasks.dir/DTO/Write_from_file_task.cpp.s"
+	C:\PROGRA~2\TDM\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\manager_tasks\DTO\Write_from_file_task.cpp -o CMakeFiles\manager_tasks.dir\DTO\Write_from_file_task.cpp.s
 
-CMakeFiles/manager_tasks.dir/DTO/WorkWithFiles.cpp.obj.requires:
+CMakeFiles/manager_tasks.dir/DTO/Write_from_file_task.cpp.obj.requires:
 
-.PHONY : CMakeFiles/manager_tasks.dir/DTO/WorkWithFiles.cpp.obj.requires
+.PHONY : CMakeFiles/manager_tasks.dir/DTO/Write_from_file_task.cpp.obj.requires
 
-CMakeFiles/manager_tasks.dir/DTO/WorkWithFiles.cpp.obj.provides: CMakeFiles/manager_tasks.dir/DTO/WorkWithFiles.cpp.obj.requires
-	$(MAKE) -f CMakeFiles\manager_tasks.dir\build.make CMakeFiles/manager_tasks.dir/DTO/WorkWithFiles.cpp.obj.provides.build
-.PHONY : CMakeFiles/manager_tasks.dir/DTO/WorkWithFiles.cpp.obj.provides
+CMakeFiles/manager_tasks.dir/DTO/Write_from_file_task.cpp.obj.provides: CMakeFiles/manager_tasks.dir/DTO/Write_from_file_task.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\manager_tasks.dir\build.make CMakeFiles/manager_tasks.dir/DTO/Write_from_file_task.cpp.obj.provides.build
+.PHONY : CMakeFiles/manager_tasks.dir/DTO/Write_from_file_task.cpp.obj.provides
 
-CMakeFiles/manager_tasks.dir/DTO/WorkWithFiles.cpp.obj.provides.build: CMakeFiles/manager_tasks.dir/DTO/WorkWithFiles.cpp.obj
+CMakeFiles/manager_tasks.dir/DTO/Write_from_file_task.cpp.obj.provides.build: CMakeFiles/manager_tasks.dir/DTO/Write_from_file_task.cpp.obj
+
+
+CMakeFiles/manager_tasks.dir/DTO/write_in_file_task.cpp.obj: CMakeFiles/manager_tasks.dir/flags.make
+CMakeFiles/manager_tasks.dir/DTO/write_in_file_task.cpp.obj: ../DTO/write_in_file_task.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\manager_tasks\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/manager_tasks.dir/DTO/write_in_file_task.cpp.obj"
+	C:\PROGRA~2\TDM\bin\G__~1.EXE   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\manager_tasks.dir\DTO\write_in_file_task.cpp.obj -c D:\manager_tasks\DTO\write_in_file_task.cpp
+
+CMakeFiles/manager_tasks.dir/DTO/write_in_file_task.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/manager_tasks.dir/DTO/write_in_file_task.cpp.i"
+	C:\PROGRA~2\TDM\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\manager_tasks\DTO\write_in_file_task.cpp > CMakeFiles\manager_tasks.dir\DTO\write_in_file_task.cpp.i
+
+CMakeFiles/manager_tasks.dir/DTO/write_in_file_task.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/manager_tasks.dir/DTO/write_in_file_task.cpp.s"
+	C:\PROGRA~2\TDM\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\manager_tasks\DTO\write_in_file_task.cpp -o CMakeFiles\manager_tasks.dir\DTO\write_in_file_task.cpp.s
+
+CMakeFiles/manager_tasks.dir/DTO/write_in_file_task.cpp.obj.requires:
+
+.PHONY : CMakeFiles/manager_tasks.dir/DTO/write_in_file_task.cpp.obj.requires
+
+CMakeFiles/manager_tasks.dir/DTO/write_in_file_task.cpp.obj.provides: CMakeFiles/manager_tasks.dir/DTO/write_in_file_task.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\manager_tasks.dir\build.make CMakeFiles/manager_tasks.dir/DTO/write_in_file_task.cpp.obj.provides.build
+.PHONY : CMakeFiles/manager_tasks.dir/DTO/write_in_file_task.cpp.obj.provides
+
+CMakeFiles/manager_tasks.dir/DTO/write_in_file_task.cpp.obj.provides.build: CMakeFiles/manager_tasks.dir/DTO/write_in_file_task.cpp.obj
 
 
 # Object files for target manager_tasks
 manager_tasks_OBJECTS = \
 "CMakeFiles/manager_tasks.dir/main.cpp.obj" \
 "CMakeFiles/manager_tasks.dir/Entity/Task.cpp.obj" \
-"CMakeFiles/manager_tasks.dir/DTO/WorkWithFiles.cpp.obj"
+"CMakeFiles/manager_tasks.dir/DTO/Write_from_file_task.cpp.obj" \
+"CMakeFiles/manager_tasks.dir/DTO/write_in_file_task.cpp.obj"
 
 # External object files for target manager_tasks
 manager_tasks_EXTERNAL_OBJECTS =
 
 manager_tasks.exe: CMakeFiles/manager_tasks.dir/main.cpp.obj
 manager_tasks.exe: CMakeFiles/manager_tasks.dir/Entity/Task.cpp.obj
-manager_tasks.exe: CMakeFiles/manager_tasks.dir/DTO/WorkWithFiles.cpp.obj
+manager_tasks.exe: CMakeFiles/manager_tasks.dir/DTO/Write_from_file_task.cpp.obj
+manager_tasks.exe: CMakeFiles/manager_tasks.dir/DTO/write_in_file_task.cpp.obj
 manager_tasks.exe: CMakeFiles/manager_tasks.dir/build.make
 manager_tasks.exe: CMakeFiles/manager_tasks.dir/linklibs.rsp
 manager_tasks.exe: CMakeFiles/manager_tasks.dir/objects1.rsp
 manager_tasks.exe: CMakeFiles/manager_tasks.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\manager_tasks\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable manager_tasks.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\manager_tasks\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable manager_tasks.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\manager_tasks.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -154,7 +180,8 @@ CMakeFiles/manager_tasks.dir/build: manager_tasks.exe
 
 CMakeFiles/manager_tasks.dir/requires: CMakeFiles/manager_tasks.dir/main.cpp.obj.requires
 CMakeFiles/manager_tasks.dir/requires: CMakeFiles/manager_tasks.dir/Entity/Task.cpp.obj.requires
-CMakeFiles/manager_tasks.dir/requires: CMakeFiles/manager_tasks.dir/DTO/WorkWithFiles.cpp.obj.requires
+CMakeFiles/manager_tasks.dir/requires: CMakeFiles/manager_tasks.dir/DTO/Write_from_file_task.cpp.obj.requires
+CMakeFiles/manager_tasks.dir/requires: CMakeFiles/manager_tasks.dir/DTO/write_in_file_task.cpp.obj.requires
 
 .PHONY : CMakeFiles/manager_tasks.dir/requires
 

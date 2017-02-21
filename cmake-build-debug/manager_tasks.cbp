@@ -82,7 +82,10 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/manager_tasks/DTO/WorkWithFiles.cpp">
+		<Unit filename="D:/manager_tasks/DTO/Write_from_file_task.cpp">
+			<Option target="manager_tasks"/>
+		</Unit>
+		<Unit filename="D:/manager_tasks/DTO/write_in_file_task.cpp">
 			<Option target="manager_tasks"/>
 		</Unit>
 		<Unit filename="D:/manager_tasks/Entity/Task.cpp">
