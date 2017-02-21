@@ -3,5 +3,5 @@ project(manager_tasks)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES main.cpp)
+set(SOURCE_FILES main.cpp Entity/Task.cpp Entity/Task.h)
 add_executable(manager_tasks ${SOURCE_FILES})

@@ -122,6 +122,33 @@ manager_tasks/fast:
 	$(MAKE) -f CMakeFiles\manager_tasks.dir\build.make CMakeFiles/manager_tasks.dir/build
 .PHONY : manager_tasks/fast
 
+Entity/Task.obj: Entity/Task.cpp.obj
+
+.PHONY : Entity/Task.obj
+
+# target to build an object file
+Entity/Task.cpp.obj:
+	$(MAKE) -f CMakeFiles\manager_tasks.dir\build.make CMakeFiles/manager_tasks.dir/Entity/Task.cpp.obj
+.PHONY : Entity/Task.cpp.obj
+
+Entity/Task.i: Entity/Task.cpp.i
+
+.PHONY : Entity/Task.i
+
+# target to preprocess a source file
+Entity/Task.cpp.i:
+	$(MAKE) -f CMakeFiles\manager_tasks.dir\build.make CMakeFiles/manager_tasks.dir/Entity/Task.cpp.i
+.PHONY : Entity/Task.cpp.i
+
+Entity/Task.s: Entity/Task.cpp.s
+
+.PHONY : Entity/Task.s
+
+# target to generate assembly for a file
+Entity/Task.cpp.s:
+	$(MAKE) -f CMakeFiles\manager_tasks.dir\build.make CMakeFiles/manager_tasks.dir/Entity/Task.cpp.s
+.PHONY : Entity/Task.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -158,6 +185,9 @@ help:
 	@echo ... manager_tasks
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... Entity/Task.obj
+	@echo ... Entity/Task.i
+	@echo ... Entity/Task.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

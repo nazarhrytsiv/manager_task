@@ -82,6 +82,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="D:/manager_tasks/Entity/Task.cpp">
+			<Option target="manager_tasks"/>
+		</Unit>
+		<Unit filename="D:/manager_tasks/Entity/Task.h">
+			<Option target="manager_tasks"/>
+		</Unit>
 		<Unit filename="D:/manager_tasks/main.cpp">
 			<Option target="manager_tasks"/>
 		</Unit>

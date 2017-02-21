@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/manager_tasks.dir/main.cpp.obj"
+  "CMakeFiles/manager_tasks.dir/Entity/Task.cpp.obj"
   "manager_tasks.pdb"
   "manager_tasks.exe"
   "manager_tasks.exe.manifest"
