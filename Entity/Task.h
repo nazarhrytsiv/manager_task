@@ -4,11 +4,20 @@
 
 #ifndef MANAGER_TASKS_TASK_H
 #define MANAGER_TASKS_TASK_H
+#pragma once
 
+#include <iostream>
+int const MAX_LEN = 15;
 
-class Task {
+namespace Program{
+    class Task {
+    private:
+        char state[MAX_LEN];
+    public:
+        void set_state(char* state);
 
-};
-
+        char * get_state();
+    };
+}
 
 #endif //MANAGER_TASKS_TASK_H
