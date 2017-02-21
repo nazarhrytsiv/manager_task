@@ -122,6 +122,33 @@ manager_tasks/fast:
 	$(MAKE) -f CMakeFiles\manager_tasks.dir\build.make CMakeFiles/manager_tasks.dir/build
 .PHONY : manager_tasks/fast
 
+BL/create_task.obj: BL/create_task.cpp.obj
+
+.PHONY : BL/create_task.obj
+
+# target to build an object file
+BL/create_task.cpp.obj:
+	$(MAKE) -f CMakeFiles\manager_tasks.dir\build.make CMakeFiles/manager_tasks.dir/BL/create_task.cpp.obj
+.PHONY : BL/create_task.cpp.obj
+
+BL/create_task.i: BL/create_task.cpp.i
+
+.PHONY : BL/create_task.i
+
+# target to preprocess a source file
+BL/create_task.cpp.i:
+	$(MAKE) -f CMakeFiles\manager_tasks.dir\build.make CMakeFiles/manager_tasks.dir/BL/create_task.cpp.i
+.PHONY : BL/create_task.cpp.i
+
+BL/create_task.s: BL/create_task.cpp.s
+
+.PHONY : BL/create_task.s
+
+# target to generate assembly for a file
+BL/create_task.cpp.s:
+	$(MAKE) -f CMakeFiles\manager_tasks.dir\build.make CMakeFiles/manager_tasks.dir/BL/create_task.cpp.s
+.PHONY : BL/create_task.cpp.s
+
 DTO/Write_from_file_task.obj: DTO/Write_from_file_task.cpp.obj
 
 .PHONY : DTO/Write_from_file_task.obj
@@ -149,32 +176,32 @@ DTO/Write_from_file_task.cpp.s:
 	$(MAKE) -f CMakeFiles\manager_tasks.dir\build.make CMakeFiles/manager_tasks.dir/DTO/Write_from_file_task.cpp.s
 .PHONY : DTO/Write_from_file_task.cpp.s
 
-DTO/write_in_file_task.obj: DTO/write_in_file_task.cpp.obj
+DTO/Write_in_file_task.obj: DTO/Write_in_file_task.cpp.obj
 
-.PHONY : DTO/write_in_file_task.obj
+.PHONY : DTO/Write_in_file_task.obj
 
 # target to build an object file
-DTO/write_in_file_task.cpp.obj:
-	$(MAKE) -f CMakeFiles\manager_tasks.dir\build.make CMakeFiles/manager_tasks.dir/DTO/write_in_file_task.cpp.obj
-.PHONY : DTO/write_in_file_task.cpp.obj
+DTO/Write_in_file_task.cpp.obj:
+	$(MAKE) -f CMakeFiles\manager_tasks.dir\build.make CMakeFiles/manager_tasks.dir/DTO/Write_in_file_task.cpp.obj
+.PHONY : DTO/Write_in_file_task.cpp.obj
 
-DTO/write_in_file_task.i: DTO/write_in_file_task.cpp.i
+DTO/Write_in_file_task.i: DTO/Write_in_file_task.cpp.i
 
-.PHONY : DTO/write_in_file_task.i
+.PHONY : DTO/Write_in_file_task.i
 
 # target to preprocess a source file
-DTO/write_in_file_task.cpp.i:
-	$(MAKE) -f CMakeFiles\manager_tasks.dir\build.make CMakeFiles/manager_tasks.dir/DTO/write_in_file_task.cpp.i
-.PHONY : DTO/write_in_file_task.cpp.i
+DTO/Write_in_file_task.cpp.i:
+	$(MAKE) -f CMakeFiles\manager_tasks.dir\build.make CMakeFiles/manager_tasks.dir/DTO/Write_in_file_task.cpp.i
+.PHONY : DTO/Write_in_file_task.cpp.i
 
-DTO/write_in_file_task.s: DTO/write_in_file_task.cpp.s
+DTO/Write_in_file_task.s: DTO/Write_in_file_task.cpp.s
 
-.PHONY : DTO/write_in_file_task.s
+.PHONY : DTO/Write_in_file_task.s
 
 # target to generate assembly for a file
-DTO/write_in_file_task.cpp.s:
-	$(MAKE) -f CMakeFiles\manager_tasks.dir\build.make CMakeFiles/manager_tasks.dir/DTO/write_in_file_task.cpp.s
-.PHONY : DTO/write_in_file_task.cpp.s
+DTO/Write_in_file_task.cpp.s:
+	$(MAKE) -f CMakeFiles\manager_tasks.dir\build.make CMakeFiles/manager_tasks.dir/DTO/Write_in_file_task.cpp.s
+.PHONY : DTO/Write_in_file_task.cpp.s
 
 Entity/Task.obj: Entity/Task.cpp.obj
 
@@ -239,12 +266,15 @@ help:
 	@echo ... manager_tasks
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... BL/create_task.obj
+	@echo ... BL/create_task.i
+	@echo ... BL/create_task.s
 	@echo ... DTO/Write_from_file_task.obj
 	@echo ... DTO/Write_from_file_task.i
 	@echo ... DTO/Write_from_file_task.s
-	@echo ... DTO/write_in_file_task.obj
-	@echo ... DTO/write_in_file_task.i
-	@echo ... DTO/write_in_file_task.s
+	@echo ... DTO/Write_in_file_task.obj
+	@echo ... DTO/Write_in_file_task.i
+	@echo ... DTO/Write_in_file_task.s
 	@echo ... Entity/Task.obj
 	@echo ... Entity/Task.i
 	@echo ... Entity/Task.s

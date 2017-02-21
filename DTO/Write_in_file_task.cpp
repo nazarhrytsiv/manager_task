@@ -7,6 +7,6 @@ using Program::Task
 
 void write_task_to_file(vector<Task> &tasks, FILE * dataF) {
     for (int i = 0; i < tasks.size(); ++i) {
-        fprintf(dataF, "%s\n", tasks[i].get_state());
+        fprintf(dataF, "%s%s\n",tasks[i].get_name() , tasks[i].get_state());
     }
 }

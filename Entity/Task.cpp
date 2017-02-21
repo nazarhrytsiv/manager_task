@@ -14,4 +14,12 @@ namespace Program{
     char *Task::get_state() {
         return this->state;
     }
+
+    void Task::set_name(char *name) {
+        this->state = state;
+    }
+
+    char *Task::get_name() {
+        return this->state;
+    }
 }

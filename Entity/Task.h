@@ -18,10 +18,15 @@ namespace Program{
     class Task {
     private:
         char state[MAX_LEN];
+        char name[MAX_LEN];
     public:
         void set_state(char* state);
 
         char * get_state();
+
+        void set_name(char* name);
+
+        char * get_name();
     };
 }
 

@@ -15,7 +15,9 @@ void write_from_file(vector<Task> &tasks, FILE * dataF){
         while (!feof(dataF))
         {
             char state[MAX_LEN];
-            fscanf(dataF, "%p", &state);
+            char name[MAX_LEN];
+            fscanf(dataF, "%s%s", &name, &state );
+            task_1.set_name(name);
             task_1.set_state(state);
             tasks.push_back(task_1);
         }
